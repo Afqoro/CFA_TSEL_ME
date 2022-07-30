@@ -1,7 +1,7 @@
 proxies:
 #27-07
-  - name: 🇸🇬 J-CTB1
-    server: gamemax.prem.my.id
+  - name: 🇸🇬 J-CONTABO
+    server: salom.com
     port: 443
     type: trojan
     password: jupitervpn-uyykj
