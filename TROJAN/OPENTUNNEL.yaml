@@ -17,14 +17,6 @@ proxies:
     skip-cert-verify: true
     sni: spotify.com
     udp: true
-  - name: 🇸🇬 OPT-AMAZON
-    server: sgt-3.opensvr.net
-    port: 443
-    type: trojan
-    password: opentunnel.net-dfgfhgh
-    skip-cert-verify: true
-    sni: spotify.com
-    udp: true
 #26-07
   - name: 🇮🇩 OPT-APIK
     server: idt-1.opensvr.net
