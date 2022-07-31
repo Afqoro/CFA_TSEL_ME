@@ -1,21 +1,5 @@
 proxies:
 #26-07
-- name: 🇮🇩 OC-APIK
-  type: vmess
-  server: gamemax.prem.my.id
-  port: 443
-  uuid: de1cb42f-3743-4973-ab85-cab30d63f29d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: id1.v2rayserv.com
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: id1.v2rayserv.com
 - name: 🇮🇩 OC-NUSA
   type: vmess
   server: gamemax.prem.my.id
@@ -32,35 +16,3 @@ proxies:
     path: /sshocean
     headers:
       Host: id2.v2rayserv.com
-- name: 🇮🇩 OC-RAJASA
-  type: vmess
-  server: gamemax.prem.my.id
-  port: 443
-  uuid: df197746-9ef0-448a-8c71-6ada5ee3e75a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: id4.v2rayserv.com
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: id4.v2rayserv.com
-- name: 🇮🇩 OC-LINKGO
-  type: vmess
-  server: gamemax.prem.my.id
-  port: 443
-  uuid: 4000b4e0-bd86-47ef-9547-f61fbacc9875
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: id6.v2rayserv.com
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: id6.v2rayserv.com
