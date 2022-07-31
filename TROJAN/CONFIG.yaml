@@ -38,15 +38,7 @@ proxy-providers:
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: 10
-  PG_VMOCEID:
-    type: http
-    path: "./proxy_provider/VMOCEID.yaml"
-    url: https://raw.githubusercontent.com/Afton123/CFA_TSEL_ME/main/TROJAN/VMOCEID.yaml
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 10      
+      interval: 10    
 proxy-groups:
 - name: HOWID
   type: url-test
@@ -87,15 +79,7 @@ proxy-groups:
   - PG_OPENTUNNEL
   url: http://www.gstatic.com/generate_204
   interval: '10'
-  tolerance: '5'
-- name: VMOCEID
-  type: url-test
-  disable-udp: false
-  use:
-  - PG_VMOCEID
-  url: http://www.gstatic.com/generate_204
-  interval: '10'
-  tolerance: '5'  
+  tolerance: '5' 
 - name: PILIHAN
   type: select
   disable-udp: false
