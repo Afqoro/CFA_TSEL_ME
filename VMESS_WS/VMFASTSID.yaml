@@ -1,5 +1,4 @@
 proxies:
-#26-07
 - name: 🇮🇩 F-BIZNET
   type: vmess
   server: gamemax.prem.my.id
