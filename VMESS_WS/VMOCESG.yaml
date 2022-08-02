@@ -1,0 +1,52 @@
+proxies:
+#26-07
+- name: 🇸🇬 OC-CTB1
+  type: vmess
+  server: gamemax.prem.my.id
+  port: 443
+  uuid: 16ed609c-0d23-4aa9-9553-5e389a752579
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg1-ctb.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: sg1-ctb.v2rayserv.com
+#26-07
+- name: 🇸🇬 OC-OVH1
+  type: vmess
+  server: gamemax.prem.my.id
+  port: 443
+  uuid: 878009bf-ffe0-46da-b60c-ed10bcd0b606
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sgovh1.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: sgovh1.v2rayserv.com
+#26-07
+- name: 🇸🇬 OC-SG03
+  type: vmess
+  server: gamemax.prem.my.id
+  port: 443
+  uuid: 645aa9ba-0a06-4f32-a50d-0061ee999592
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg3.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: sg3.v2rayserv.com

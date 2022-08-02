@@ -1,0 +1,103 @@
+proxies:
+#27-07
+  - name: 🇮🇩 STR-ATHA2
+    server: gamemax.prem.my.id
+    port: 443
+    type: vmess
+    uuid: 165f338d-ad1c-4921-af0d-e6b51764c89b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: id.vmess2.xservs.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id.vmess2.xservs.xyz
+#27-07
+  - name: 🇸🇬 STR-OVH
+    server: gamemax.prem.my.id
+    port: 443
+    type: vmess
+    uuid: ba7fe8e6-ddca-4edf-8d04-15a7731cdb0f
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: sg.vmess1.xservs.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg.vmess1.xservs.xyz
+#27-07
+  - name: 🇮🇩 JAG-APIK
+    server: gamemax.prem.my.id
+    port: 443
+    type: vmess
+    uuid: 3789d291-961c-4f55-9e8c-df64194eed98
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: id.vmes.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id.vmes.xyz
+#27-07
+  - name: 🇸🇬 JAG-OVH3
+    server: gamemax.prem.my.id
+    port: 443
+    type: vmess
+    uuid: 17a990e5-7474-4ea8-a3d3-ef61ba8225e8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.vmes.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: sg3.vmes.xyz
+#27-07
+  - name: 🇸🇬 UL-SGDO
+    server: gamemax.prem.my.id
+    port: 443
+    type: vmess
+    uuid: 559ae38a-353d-4d7b-99ba-a56058881396
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray-xsg01.unlissh.cyou
+    network: ws
+    ws-opts:
+      path: /unlissh
+      headers:
+        Host: v2ray-xsg01.unlissh.cyou
+#27-07
+  - name: 🇸🇬 SER-OVH
+    server: gamemax.prem.my.id
+    port: 443
+    type: vmess
+    uuid: d6996552-2e70-4ca0-a1a9-617e40f7ec81
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: sg1ray.serverssh.net
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sg1ray.serverssh.net
