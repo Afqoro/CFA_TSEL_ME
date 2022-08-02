@@ -1,10 +1,10 @@
 proxies:
-#26-07
+#03-08
 - name: 🇮🇩 OC-APIK
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: de1cb42f-3743-4973-ab85-cab30d63f29d
+  uuid: 786206da-f429-4e2e-be57-7999fb16fcd1
   alterId: 0
   cipher: auto
   udp: true
@@ -20,7 +20,7 @@ proxies:
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 9c15bb27-8c9c-4f3c-8354-df73dd57ee12
+  uuid: 54502f07-ccc0-4ac4-8b9a-52f617efad97
   alterId: 0
   cipher: auto
   udp: true
@@ -36,7 +36,7 @@ proxies:
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: df197746-9ef0-448a-8c71-6ada5ee3e75a
+  uuid: 7eb40783-43e7-493c-bb07-cd01c51ab3e7
   alterId: 0
   cipher: auto
   udp: true
@@ -52,7 +52,7 @@ proxies:
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 4000b4e0-bd86-47ef-9547-f61fbacc9875
+  uuid: 3ba8d2ba-87f2-4afd-b6f7-c0c7f5da92f1
   alterId: 0
   cipher: auto
   udp: true
