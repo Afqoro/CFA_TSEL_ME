@@ -13,7 +13,7 @@ proxies:
         Host: id5-trojan.bonds.id
     udp: true
 
-  - name: 🇮🇩 GFH-BANT
+  - name: 🇮🇩 GFH-souuu
     type: trojan
     server: id5-trojan.bonds.id
     port: 443
