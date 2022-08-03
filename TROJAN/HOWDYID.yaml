@@ -1,5 +1,5 @@
 proxies:
-  - name: 🇮🇩 GOH-BANT
+  - name: 🇮🇩 GOH-ngok
     server: gamemax.prem.my.id
     port: 443
     type: trojan
