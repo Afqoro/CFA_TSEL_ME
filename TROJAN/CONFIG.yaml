@@ -2,7 +2,7 @@ proxy-providers:
   PG_HOWDYID:
     type: http
     path: "./proxy_provider/HOWDYID.yaml"
-    url: https://raw.githubusercontent.com/Afton123/CFA_TSEL_ME/main/TROJAN/HOWDYID.yaml
+    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/TROJAN/HOWDYID.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -10,7 +10,7 @@ proxy-providers:
   PG_HOWDYSG:
     type: http
     path: "./proxy_provider/HOWDYSG.yaml"
-    url: https://raw.githubusercontent.com/Afton123/CFA_TSEL_ME/main/TROJAN/HOWDYSG.yaml
+    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/TROJAN/HOWDYSG.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -18,7 +18,7 @@ proxy-providers:
   PG_FASTSSH:
     type: http
     path: "./proxy_provider/FASTSSH.yaml"
-    url: https://raw.githubusercontent.com/Afton123/CFA_TSEL_ME/main/TROJAN/FASTSSH.yaml
+    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/TROJAN/FASTSSH.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -26,7 +26,7 @@ proxy-providers:
   PG_JUPITER:
     type: http
     path: "./proxy_provider/JUPITER.yaml"
-    url: https://raw.githubusercontent.com/Afton123/CFA_TSEL_ME/main/TROJAN/JUPITER.yaml
+    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/TROJAN/JUPITER.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -34,7 +34,7 @@ proxy-providers:
   PG_OPENTUNNEL:
     type: http
     path: "./proxy_provider/OPENTUNNEL.yaml"
-    url: https://raw.githubusercontent.com/Afton123/CFA_TSEL_ME/main/TROJAN/OPENTUNNEL.yaml
+    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/TROJAN/OPENTUNNEL.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
