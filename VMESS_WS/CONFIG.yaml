@@ -2,7 +2,7 @@ proxy-providers:
   PG_OCEID:
     type: http
     path: "./proxy_provider/VMOCEID.yaml"
-    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/VMESS_WS/VMOCEID.yaml
+    url: https://raw.githubusercontent.com/Afqoro/CFA_TSEL_ME/main/VMESS_WS/VMOCEID.yaml
     health-check: 
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -10,7 +10,7 @@ proxy-providers:
   PG_OCESG:
     type: http
     path: "./proxy_provider/VMOCESG.yaml"
-    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/VMESS_WS/VMOCESG.yaml
+    url: https://raw.githubusercontent.com/Afqoro/CFA_TSEL_ME/main/VMESS_WS/VMOCESG.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -18,7 +18,7 @@ proxy-providers:
   PG_OPENTUNNEL:
     type: http
     path: "./proxy_provider/VMOPT.yaml"
-    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/VMESS_WS/VMOPT.yaml
+    url: https://raw.githubusercontent.com/Afqoro/CFA_TSEL_ME/main/VMESS_WS/VMOPT.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -26,7 +26,7 @@ proxy-providers:
   PG_FASTID:
     type: http
     path: "./proxy_provider/VMFASTID.yaml"
-    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/VMESS_WS/VMFASTID.yaml
+    url: https://raw.githubusercontent.com/Afqoro/CFA_TSEL_ME/main/VMESS_WS/VMFASTID.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -34,7 +34,7 @@ proxy-providers:
   PG_FASTSG:
     type: http
     path: "./proxy_provider/VMFASTSG.yaml"
-    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/VMESS_WS/VMFASTSG.yaml
+    url: https://raw.githubusercontent.com/Afqoro/CFA_TSEL_ME/main/VMESS_WS/VMFASTSG.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -42,7 +42,7 @@ proxy-providers:
   PG_CAMPUR:
     type: http
     path: "./proxy_provider/VMCAMPUR.yaml"
-    url: https://raw.githubusercontent.com/Sribunga/CFA_TSEL_ME/main/VMESS_WS/VMCAMPUR.yaml
+    url: https://raw.githubusercontent.com/Afqoro/CFA_TSEL_ME/main/VMESS_WS/VMCAMPUR.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
