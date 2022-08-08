@@ -16,24 +16,56 @@ proxies:
       path: /vmess
       headers:
         Host: id.vmess2.xservs.xyz
-#27-07
-  - name: 🇸🇬 STR-OVH
+  - name: 🇮🇩 NIN-LINKGO
     server: gamemax.prem.my.id
     port: 443
     type: vmess
-    uuid: ba7fe8e6-ddca-4edf-8d04-15a7731cdb0f
+    uuid: 85286034-3abe-4124-bbf6-e96e5015085b
     alterId: 0
     cipher: auto
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: sg.vmess1.xservs.xyz
+    servername: id1.jupiterv2ray.xyz
+    network: ws
+    ws-opts:
+      path: /v2ray
+      headers:
+        Host: id1.jupiterv2ray.xyz
+  - name: 🇸🇬 NIN-CTB
+    server: gamemax.prem.my.id
+    port: 443
+    type: vmess
+    uuid: 69fc6937-9409-4a75-ba05-756e39889bc1
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: sg1.jupiterv2ray.xyz
+    network: ws
+    ws-opts:
+      path: /v2ray
+      headers:
+        Host: sg1.jupiterv2ray.xyz        
+
+  - name: 🇸🇬 STR-OVH2
+    server: gamemax.prem.my.id
+    port: 443
+    type: vmess
+    uuid: d3cbb515-d86b-4b25-b16d-1d234f8f8030
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: sg.vmess2.xservs.xyz
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sg.vmess1.xservs.xyz
-#27-07
+        Host: sg.vmess2.xservs.xyz
+
   - name: 🇮🇩 JAG-APIK
     server: gamemax.prem.my.id
     port: 443
@@ -50,7 +82,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: id.vmes.xyz
-#27-07
+
   - name: 🇸🇬 JAG-OVH3
     server: gamemax.prem.my.id
     port: 443
@@ -67,7 +99,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: sg3.vmes.xyz
-#27-07
+
   - name: 🇸🇬 UL-SGDO
     server: gamemax.prem.my.id
     port: 443
@@ -84,7 +116,7 @@ proxies:
       path: /unlissh
       headers:
         Host: v2ray-xsg01.unlissh.cyou
-#27-07
+
   - name: 🇸🇬 SER-OVH
     server: gamemax.prem.my.id
     port: 443
