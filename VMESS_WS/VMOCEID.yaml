@@ -20,23 +20,23 @@ proxies:
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 54502f07-ccc0-4ac4-8b9a-52f617efad97
+  uuid: 3147e6ab-6980-4a16-98fb-92c72ee49c4f
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: id2.v2rayserv.com
+  servername: id3.v2rayserv.com
   network: ws
   ws-opts:
     path: /sshocean
     headers:
-      Host: id2.v2rayserv.com
+      Host: id3.v2rayserv.com
 - name: 🇮🇩 OC-RAJASA
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 7eb40783-43e7-493c-bb07-cd01c51ab3e7
+  uuid: c71de096-1a9f-46dc-954b-59bab709e5a0
   alterId: 0
   cipher: auto
   udp: true
@@ -52,7 +52,7 @@ proxies:
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 3ba8d2ba-87f2-4afd-b6f7-c0c7f5da92f1
+  uuid: ce12f906-b0e6-4df1-b131-6c0d25609e07
   alterId: 0
   cipher: auto
   udp: true
