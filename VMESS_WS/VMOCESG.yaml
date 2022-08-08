@@ -21,7 +21,7 @@ proxies:
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 878009bf-ffe0-46da-b60c-ed10bcd0b606
+  uuid: 9f3b2579-bfcc-48b6-8592-c030a4e563a4
   alterId: 0
   cipher: auto
   udp: true
@@ -38,7 +38,7 @@ proxies:
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 645aa9ba-0a06-4f32-a50d-0061ee999592
+  uuid: 52bec4df-a2c9-42a1-9237-6b5aed2115c9
   alterId: 0
   cipher: auto
   udp: true
