@@ -1,28 +1,37 @@
 proxies:
-#26-07
+#09-08
   - name: 🇸🇬 OPT-CHOOPA
     server: sgt-1.opensvr.net
     port: 443
     type: trojan
-    password: opentunnel.net-fhghgh
+    password: opentunnel.net-rertsd
     skip-cert-verify: true
     sni: spotify.com
     udp: true
-#26-07
+
   - name: 🇸🇬 OPT-OVH
     server: sgt-2.opensvr.net
     port: 443
     type: trojan
-    password: opentunnel.net-fghfgh
+    password: opentunnel.net-rtydf
     skip-cert-verify: true
     sni: spotify.com
     udp: true
-#26-07
+
+  - name: 🇸🇬 OPT-AMAZON
+    server: sgt-3.opensvr.net
+    port: 443
+    type: trojan
+    password: opentunnel.net-trygf
+    skip-cert-verify: true
+    sni: spotify.com
+    udp: true    
+
   - name: 🇮🇩 OPT-APIK
     server: idt-1.opensvr.net
     port: 443
     type: trojan
-    password: opentunnel.net-dfgfg
+    password: opentunnel.net-dfgfc
     skip-cert-verify: true
     sni: spotify.com
     udp: true
