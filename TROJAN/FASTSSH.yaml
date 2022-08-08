@@ -1,5 +1,5 @@
 proxies:
-#26-07
+#08-08
   - name: 🇸🇬 GOF-OVH
     server: gamemax.prem.my.id
     port: 443
@@ -21,7 +21,7 @@ proxies:
     udp: true
     sni: spotify.com
     skip-cert-verify: true
-#26-07
+
   - name: 🇸🇬 GOF-HE
     server: gamemax.prem.my.id
     port: 443
@@ -43,7 +43,7 @@ proxies:
     udp: true
     sni: spotify.com
     skip-cert-verify: true
-#26-07
+
   - name: 🇮🇩 GOF-IKD
     server: gamemax.prem.my.id
     port: 443
