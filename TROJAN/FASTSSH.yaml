@@ -4,7 +4,7 @@ proxies:
     server: gamemax.prem.my.id
     port: 443
     type: trojan
-    password: dd72c960-0cae-11ed-b932-225401db9d57
+    password: ec99c570-1744-11ed-b039-225401db9d57
     skip-cert-verify: true
     sni: sg-ovh.tjvpn.org
     network: ws
@@ -17,7 +17,7 @@ proxies:
     type: trojan
     server: sg-ovh.tjvpn.org
     port: 443
-    password: dd72c960-0cae-11ed-b932-225401db9d57
+    password: ec99c570-1744-11ed-b039-225401db9d57
     udp: true
     sni: spotify.com
     skip-cert-verify: true
@@ -26,7 +26,7 @@ proxies:
     server: gamemax.prem.my.id
     port: 443
     type: trojan
-    password: 172a1460-0caf-11ed-b836-225401db9d57
+    password: 219cf270-1745-11ed-b430-225401db9d57
     skip-cert-verify: true
     sni: sghe.tjvpn.org
     network: ws
@@ -39,7 +39,7 @@ proxies:
     type: trojan
     server: sghe.tjvpn.org
     port: 443
-    password: 172a1460-0caf-11ed-b836-225401db9d57
+    password: 219cf270-1745-11ed-b430-225401db9d57
     udp: true
     sni: spotify.com
     skip-cert-verify: true
@@ -48,7 +48,7 @@ proxies:
     server: gamemax.prem.my.id
     port: 443
     type: trojan
-    password: 2f318190-0caf-11ed-b139-225401db9d57
+    password: 293ca940-1745-11ed-b539-225401db9d57
     skip-cert-verify: true
     sni: id-1.tjvpn.org
     network: ws
@@ -61,7 +61,7 @@ proxies:
     type: trojan
     server: id-1.tjvpn.org
     port: 443
-    password: 2f318190-0caf-11ed-b139-225401db9d57
+    password: 293ca940-1745-11ed-b539-225401db9d57
     udp: true
     sni: spotify.com
     skip-cert-verify: true
