@@ -12,7 +12,7 @@ proxies:
   servername: idv-1.openv2ray.com
   network: ws
   ws-opts:
-    path: /u/opentunnel.net-ertdfg
+    path: /u/opentunnel.net-ddfsdr
     headers:
       Host: idv-1.openv2ray.com
   udp: true
