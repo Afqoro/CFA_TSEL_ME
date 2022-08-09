@@ -31,6 +31,14 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 10
+  PG_JAGOANSSH:
+    type: http
+    path: "./proxy_provider/JAGOANSSH.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/CFA_TSEL_ME/main/TROJAN/JAGOANSSH.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10      
   PG_OPENTUNNEL:
     type: http
     path: "./proxy_provider/OPENTUNNEL.yaml"
@@ -38,7 +46,15 @@ proxy-providers:
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: 10    
+      interval: 10
+  PG_SSHOCEAN:
+    type: http
+    path: "./proxy_provider/OPENTUNNEL.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/CFA_TSEL_ME/main/TROJAN/SSHOCEAN.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10       
 proxy-groups:
 - name: HOWID
   type: url-test
@@ -79,7 +95,23 @@ proxy-groups:
   - PG_OPENTUNNEL
   url: http://www.gstatic.com/generate_204
   interval: '10'
-  tolerance: '5' 
+  tolerance: '5'
+- name: JAGOANSSH
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_JAGOANSSH
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'
+- name: SSHOCEAN
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_SSHOCEAN
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'  
 - name: PILIHAN
   type: select
   disable-udp: false
@@ -89,6 +121,8 @@ proxy-groups:
   - PG_FASTSSH
   - PG_JUPITER
   - PG_OPENTUNNEL
+  - PG_JAGOANSSH
+  - PG_SSHOCEAN  
   url: http://www.gstatic.com/generate_204
   interval: '10'
 port: 7890
