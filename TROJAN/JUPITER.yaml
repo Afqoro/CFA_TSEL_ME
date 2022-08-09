@@ -1,17 +1,17 @@
 proxies:
-#27-07
+#08-08
 - name: 🇸🇬 J-CONTABO
-  server: salom.com
+  server: gamemax.prem.my.id
   port: 443
   type: trojan
-  password: jupitervpn-uyykj
+  password: jupitervpn-fgdg
   skip-cert-verify: true
-  sni: sg1.jupitervpn.me
+  sni: sg3.jupitervpn.me
   network: ws
   ws-opts:
     path: /trojan-go
     headers:
-      Host: sg1.jupitervpn.me
+      Host: sg3.jupitervpn.me
   udp: true
 #27-07
 - name: 🇮🇩 J-UNI3
