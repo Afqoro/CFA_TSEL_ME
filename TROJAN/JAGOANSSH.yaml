@@ -7,6 +7,20 @@ proxies:
   udp: true
   sni: spotify.com
   skip-cert-verify: true
+- name: 🇸🇬 GO-JAG-OVH
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: jagoanssh-saaad
+  skip-cert-verify: true
+  sni: sg3go.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg3go.ipservers.xyz
+  udp: true   
+  
 - name: 🇮🇩 GF-JAG-APIK
   type: trojan
   server: id1tro.ipservers.xyz
@@ -15,3 +29,16 @@ proxies:
   udp: true
   sni: spotify.com
   skip-cert-verify: true
+- name: 🇮🇩 GO-JAG-APIK
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: jagoanssh-sdfer
+  skip-cert-verify: true
+  sni: id1go.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1go.ipservers.xyz
+  udp: true  
