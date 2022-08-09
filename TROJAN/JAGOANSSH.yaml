@@ -1,0 +1,17 @@
+proxies:
+- name: 🇸🇬 GF-JAG-OVH3
+  type: trojan
+  server: sg3tro.ipservers.xyz
+  port: 443
+  password: jagoanssh-sdfasf
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+- name: 🇮🇩 GF-JAG-APIK
+  type: trojan
+  server: id1tro.ipservers.xyz
+  port: 443
+  password: jagoanssh-werdf
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
