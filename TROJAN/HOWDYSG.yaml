@@ -1,88 +1,88 @@
 proxies:
-  - name: 🇸🇬 GOH-HE1
-    server: gamemax.prem.my.id
-    port: 443
-    type: trojan
-    password: a5bad010-0650-11ed-902c-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: 🇸🇬 GFH-HE1
-    type: trojan
-    server: sg1-trojan.bonds.id
-    port: 443
-    password: a5bad010-0650-11ed-902c-1239d0255272
-    udp: true
-    sni: spotify.com
-    skip-cert-verify: true
+- name: 🇸🇬 GOH-HE1
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: 941e9100-1784-11ed-bfc2-1239d0255272
+  skip-cert-verify: true
+  sni: sg1-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1-trojan.bonds.id
+  udp: true
+- name: 🇸🇬 GFH-HE1
+  type: trojan
+  server: sg1-trojan.bonds.id
+  port: 443
+  password: 941e9100-1784-11ed-bfc2-1239d0255272
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
 
-  - name: 🇸🇬 GOH-HE2
-    server: gamemax.prem.my.id
-    port: 443
-    type: trojan
-    password: 8acc7e60-0651-11ed-b138-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg2-trojan.bonds.id
-    udp: true
-  - name: 🇸🇬 GFH-HE2
-    type: trojan
-    server: sg2-trojan.bonds.id
-    port: 443
-    password: 8acc7e60-0651-11ed-b138-1239d0255272
-    udp: true
-    sni: spotify.com
-    skip-cert-verify: true
+- name: 🇸🇬 GOH-HEMUX
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: 7f9c0650-1785-11ed-94a1-1239d0255272
+  skip-cert-verify: true
+  sni: sg6-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg6-trojan.bonds.id
+  udp: true
+- name: 🇸🇬 GFH-HEMUX
+  type: trojan
+  server: sg6-trojan.bonds.id
+  port: 443
+  password: 7f9c0650-1785-11ed-94a1-1239d0255272
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
 
-  - name: 🇸🇬 GOH-UPD
-    server: gamemax.prem.my.id
-    port: 443
-    type: trojan
-    password: eb1234e0-0651-11ed-8bc3-1239d0255272
-    skip-cert-verify: true
-    sni: sg8-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg8-trojan.bonds.id
-    udp: true
-  - name: 🇸🇬 GFH-UPD
-    type: trojan
-    server: sg8-trojan.bonds.id
-    port: 443
-    password: eb1234e0-0651-11ed-8bc3-1239d0255272
-    udp: true
-    sni: spotify.com
-    skip-cert-verify: true
+- name: 🇸🇬 GOH-UPD
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: 5302b7b0-1785-11ed-8d57-1239d0255272
+  skip-cert-verify: true
+  sni: sg8-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg8-trojan.bonds.id
+  udp: true
+- name: 🇸🇬 GFH-UPD
+  type: trojan
+  server: sg8-trojan.bonds.id
+  port: 443
+  password: 5302b7b0-1785-11ed-8d57-1239d0255272
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
 
-  - name: 🇸🇬 GOH-OVH
-    server: gamemax.prem.my.id
-    port: 443
-    type: trojan
-    password: 735c1310-0cae-11ed-a28f-1239d0255272
-    skip-cert-verify: true
-    sni: sgovh-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sgovh-trojan.bonds.id
-    udp: true
-  - name: 🇸🇬 GFH-OVH
-    type: trojan
-    server: sgovh-trojan.bonds.id
-    port: 443
-    password: 735c1310-0cae-11ed-a28f-1239d0255272
-    udp: true
-    sni: spotify.com
-    skip-cert-verify: true
+- name: 🇸🇬 GOH-OVH
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: abc69b60-1784-11ed-ac2a-1239d0255272
+  skip-cert-verify: true
+  sni: sgovh-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sgovh-trojan.bonds.id
+  udp: true
+- name: 🇸🇬 GFH-OVH
+  type: trojan
+  server: sgovh-trojan.bonds.id
+  port: 443
+  password: abc69b60-1784-11ed-ac2a-1239d0255272
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
