@@ -1,0 +1,85 @@
+proxies:
+#09-08
+- name: 🇮🇩 GO-GLOBAL1
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: whyvpn-rtddfgs
+  skip-cert-verify: true
+  sni: dewabiz.kitu.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: dewabiz.kitu.xyz
+  udp: true
+- name: 🇮🇩 GO-GLOBAL2
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: whyvpn-sdfsd
+  skip-cert-verify: true
+  sni: dewabiz2.kitu.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: dewabiz2.kitu.xyz
+  udp: true
+- name: 🇮🇩 GO-SGDO2
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: whyvpn-rsdf
+  skip-cert-verify: true
+  sni: do2.kitu.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: do2.kitu.xyz
+  udp: true
+- name: 🇮🇩 GR-GLOBAL1
+  type: trojan
+  server: dewabiz.kitu.xyz
+  port: 443
+  password: 69ecd227-4899-4339-81e1-13abe4cee76c
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
+- name: 🇮🇩 GR-GLOBAL2
+  type: trojan
+  server: dewabiz2.kitu.xyz
+  port: 443
+  password: fa0bb760-ce48-4bf0-9088-43dd36d9b410
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
+- name: 🇮🇩 GR-NUSA
+  type: trojan
+  server: nusa1.kitu.xyz
+  port: 443
+  password: 87176342-3492-418f-b1b2-ac5048970903
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
+- name: 🇸🇬 GR-SGDO
+  type: trojan
+  server: do1.kitu.xyz
+  port: 443
+  password: fff2df65-1559-4d3d-8004-eb96429fb6c4
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
