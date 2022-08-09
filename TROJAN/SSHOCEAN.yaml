@@ -1,9 +1,9 @@
 proxies:
 - name: 🇮🇩 GO-OCE-ATHA
-  server: cdn.onlymega.com
+  server: gamemax.prem.my.id
   port: 443
   type: trojan
-  password: b196a358-7f0b-45bb-a79b-cf81126871d3
+  password: 3b86748d-e32a-47a1-a722-213c1648c362
   skip-cert-verify: true
   sni: id-atha3.rockstartun.xyz
   network: ws
@@ -13,11 +13,10 @@ proxies:
       Host: id-atha3.rockstartun.xyz
   udp: true
 - name: 🇮🇩 GO-OCE-LINKGO
-  server: cdn.onlymega.com
-  server: hynesconstruction.com
+  server: gamemax.prem.my.id
   port: 443
   type: trojan
-  password: d8a63455-d002-4d92-912c-7bf36b1eb37a
+  password: a4728a89-60c2-44dc-98af-9b185b5f0477
   network: ws
   sni: id-linkgo1.rockstartun.xyz
   skip-cert-verify: true
