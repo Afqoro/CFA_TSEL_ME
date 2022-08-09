@@ -1,10 +1,10 @@
 proxies:
 #03-08
-- name: 🇮🇩 OC-APIK
+- name: 🇮🇩 OC-MENARA
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 786206da-f429-4e2e-be57-7999fb16fcd1
+  uuid: 14a9783c-9708-4721-810a-8d01486d0e06
   alterId: 0
   cipher: auto
   udp: true
@@ -20,23 +20,23 @@ proxies:
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: 3147e6ab-6980-4a16-98fb-92c72ee49c4f
+  uuid: 6c9106e6-8612-4f91-9c65-d3a79efda7a5
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: id3.v2rayserv.com
+  servername: id2.v2rayserv.com
   network: ws
   ws-opts:
     path: /sshocean
     headers:
-      Host: id3.v2rayserv.com
+      Host: id2.v2rayserv.com
 - name: 🇮🇩 OC-RAJASA
   type: vmess
   server: gamemax.prem.my.id
   port: 443
-  uuid: c71de096-1a9f-46dc-954b-59bab709e5a0
+  uuid: 07455346-f3da-4184-bdd7-a46a804fc7f9
   alterId: 0
   cipher: auto
   udp: true
