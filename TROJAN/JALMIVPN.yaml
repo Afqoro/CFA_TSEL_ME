@@ -1,5 +1,5 @@
 proxies:
-#09-08
+#10-08
 - name: 🇮🇩 GO-GLOBAL1
   server: gamemax.prem.my.id
   port: 443
