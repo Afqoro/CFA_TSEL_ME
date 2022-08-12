@@ -1,10 +1,10 @@
 proxies:
-#10-08
+#13-08
 - name: 🇮🇩 GO-GLOBAL1
   server: gamemax.prem.my.id
   port: 443
   type: trojan
-  password: whyvpn-rtddfgs
+  password: whyvpn-ftyfgh
   skip-cert-verify: true
   sni: dewabiz.kitu.xyz
   network: ws
@@ -17,7 +17,7 @@ proxies:
   server: gamemax.prem.my.id
   port: 443
   type: trojan
-  password: whyvpn-sdfsd
+  password: whyvpn-gdsdf
   skip-cert-verify: true
   sni: dewabiz2.kitu.xyz
   network: ws
@@ -26,6 +26,19 @@ proxies:
     headers:
       Host: dewabiz2.kitu.xyz
   udp: true
+- name: 🇮🇩 GO-NUSA
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: whyvpn-reter
+  skip-cert-verify: true
+  sni: nusa1.kitu.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: nusa1.kitu.xyz
+  udp: true  
 - name: 🇮🇩 GO-SGDO2
   server: gamemax.prem.my.id
   port: 443
@@ -43,7 +56,7 @@ proxies:
   type: trojan
   server: dewabiz.kitu.xyz
   port: 443
-  password: 69ecd227-4899-4339-81e1-13abe4cee76c
+  password: 112254f2-53a3-4abf-bfd3-bf155a22a911
   udp: true
   sni: spotify.com
   skip-cert-verify: true
@@ -54,7 +67,7 @@ proxies:
   type: trojan
   server: dewabiz2.kitu.xyz
   port: 443
-  password: fa0bb760-ce48-4bf0-9088-43dd36d9b410
+  password: 1f67188b-760e-4d81-b84f-5f8ba0d94a32
   udp: true
   sni: spotify.com
   skip-cert-verify: true
@@ -65,7 +78,7 @@ proxies:
   type: trojan
   server: nusa1.kitu.xyz
   port: 443
-  password: 87176342-3492-418f-b1b2-ac5048970903
+  password: d1d297f9-37dd-4bcd-a956-f4a8db0b1a8d
   udp: true
   sni: spotify.com
   skip-cert-verify: true
@@ -76,7 +89,7 @@ proxies:
   type: trojan
   server: do1.kitu.xyz
   port: 443
-  password: fff2df65-1559-4d3d-8004-eb96429fb6c4
+  password: d9d3d4dd-1865-4da7-9a3e-07641fa5ace8
   udp: true
   sni: spotify.com
   skip-cert-verify: true
